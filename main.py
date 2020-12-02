@@ -162,7 +162,7 @@ def covid_compare_x(l_paises, lapso=None,  save_name=None):                     
     datosx = []     #Variable para contener todas las fechas, ordenadas en una lista
     #           ROJO        PURPURA     AZUL        VERDE       Negro oscuro     
     colores = ["#FF0000",   "#8000FF",  "#0000FF",  "#00FF00",  "#c2c2c2",                  #Creo una lista con los colores para las lineas, esta lista limita
-    #   CLST-VRDE   AMARILLO2   GRIS OSCURO ROSA                                            #la cantidad de paises que puedo comparar, alargarla aumentará las posibilidades de al función.
+    #   CLST-VRDE   AMARILLO2   GRIS OSCURO ROSA                                            #la cantidad de paises que puedo comparar, alargarla aumentará las posibilidades de la función.
         "#00FFC1",  "#F39C12",  "#2C3E50",  "#FF00FF"]
 
     if len(l_paises) > len(colores):                                                        #Comparo la cantidad de paises, con la cantidad de colores para la grafica que tengo.
